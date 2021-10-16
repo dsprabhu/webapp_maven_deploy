@@ -37,23 +37,7 @@
                     <version>2.1.2</version>
                 </plugin>
                      </plugins>
-            <plugin>
-                        <groupId>org.openclover</groupId>
-                        <artifactId>clover-maven-plugin</artifactId>
-                        <version>${cloverVersion}</version>
-                        <executions>
-                            <execution>
-                                <id>clover</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>instrument</goal>
-                                    <goal>check</goal>
-                                    <goal>clover</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-        </pluginManagement>
+                 </pluginManagement>
         <plugins>
                        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

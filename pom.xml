@@ -36,15 +36,7 @@
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.1.2</version>
                 </plugin>
-                <plugin>`
-            <groupId>com.atlassian.maven.plugins</groupId>
-            <artifactId>clover-maven-plugin</artifactId>
-            <configuration>
-                <!-- Use custom report descriptor -->
-                <reportDescriptor>clover-report.xml</reportDescriptor>
-            </configuration>
-        </plugin>
-              </plugins>
+                     </plugins>
         </pluginManagement>
         <plugins>
                        <plugin>
